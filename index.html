@@ -21,6 +21,7 @@
         <li><a data-toggle="tab" href="#playerOne">1 Player</a></li>
         <li><a data-toggle="tab" href="#playerTwo">2 Player</a></li>
       </ul>
+<!-- ABOUT TAB -->
       <div class="tab-content">
         <div id="about" class="tab-pane fade in active">
           <h3>How to Play</h3>
@@ -34,12 +35,13 @@
           <img class="pull-left img-responsive" src="img/rightPongCropped.png" alt="Forehand!">
           <img class="pull-right img-responsive" src="img/leftPongCropped.png" alt="Backhand!">
         </div>
+<!-- ONE PLAYER TAB -->
         <div id="playerOne" class="tab-pane fade">
           <h3>Solo</h3>
           <p>Enter in a number to Ping and or Pong</p>
           <form id="soloForm">
             <div class="form-control">
-              <label for="userNum">Enter a number</label>
+              <label for="soloInput">Enter a number</label>
               <input id="soloInput" type="number" >
             </div>
             <button type="submit" name="button" class="btn">Go!</button>
@@ -50,9 +52,20 @@
         </ul>
       </div>
         </div>
+<!-- TWO PLAYER TAB -->
         <div id="playerTwo" class="tab-pane fade">
+          <h2 class="text-center">Under Construction</h2>
           <h3>Play with a friend!</h3>
-          <p>Under Construction!</p>
+          <p>Given a random number, the players must use ping and pong from the single player excercise to match it!</p>
+          <form id="duoForm">
+            <div class="form-control">
+              <label for="userOneInput">Player 1: Enter a number</label>
+              <input id="userOneInput" type="number" >
+              <label for="userTwoInput">Player 2: Enter a number</label>
+              <input id="userTwoInput" type="number" >
+            </div>
+            <button type="submit" name="button" class="btn hidden">Go!</button>
+          </form>
           <img class="center-block" src="img/underConstruction.jpg" alt="Building!">
 
         </div>
