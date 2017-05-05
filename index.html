@@ -23,7 +23,13 @@
       <div class="tab-content">
         <div id="about" class="tab-pane fade in active">
           <h3>How to Play</h3>
-          <p>Some content.</p>
+          <p>This game will count up to the number you entered with a few exceptions.</p>
+          <ul>
+            <li>For Solo Play:</li>
+            <li>Numbers divisible by 3 are replaced with "ping"</li>
+            <li>Numbers divisible by 5 are replaced with "pong"</li>
+            <li>Numbers divisible by 15 are replaced with "ping-pong"</li>
+          </ul>
         </div>
         <div id="playerOne" class="tab-pane fade">
           <h3>Solo</h3>
@@ -31,7 +37,7 @@
           <form id="soloForm">
             <div class="form-control">
               <label for="userNum">Enter a number</label>
-              <input id="userNum" type="number" >
+              <input id="soloInput" type="number" >
             </div>
             <button type="submit" name="button" class="btn">Go!</button>
           </form>
