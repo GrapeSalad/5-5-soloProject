@@ -1,0 +1,81 @@
+body {
+  font-family: 'Lora', serif;
+  background: url("../img/dark-website-background.jpg") center;
+}
+
+h1 {
+  background-color: rgba(253, 251, 255, 0.8);
+  text-align: center;
+  border-radius: 4px;
+  padding: 5px;
+  border: 1px solid #D4D1D1;
+}
+
+p, li {
+  color: #000;
+}
+
+#output li {
+  list-style: none;
+  padding: 10px 0 0;
+}
+
+.tab-content{
+  border-left: 1px solid #D4D1D1;
+  border-right: 1px solid #D4D1D1;
+  border-bottom: 1px solid #D4D1D1;
+  height: 500px;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1e5799+0,ffffff+0,383838+100,207cca+102 */
+  background: rgb(30,87,153,); /* Old browsers */
+  background: -moz-linear-gradient(top, rgba(30,87,153,.8) 0%, rgba(255,255,255,.8) 0%, rgba(56,56,56,.8) 100%, rgba(32,124,202,.8) 102%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, rgba(30,87,153,.8) 0%,rgba(255,255,255,.8) 0%,rgba(56,56,56,.8) 100%,rgba(32,124,202,.8) 102%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, rgba(30,87,153,.8) 0%,rgba(255,255,255,.8) 0%,rgba(56,56,56,.8) 100%,rgba(32,124,202,.8) 102%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#207cca',GradientType=0 ); /* IE6-9 */
+}
+
+.form-control {
+  background: transparent;
+  border: none;
+  box-shadow: none;
+}
+
+button {
+  margin: 25px 25px;
+  color: #fff;
+  background-color: #424347;
+  border: 1px solid #D4D1D1;
+}
+
+h3 {
+  margin: 0;
+  padding: 10px 0 0 5px;
+}
+
+a {
+  color: #FDFBFF
+}
+
+.tab-content img {
+  width: auto;
+  height: auto;
+}
+/********** FOOTER  ************/
+footer {
+	margin: 0 auto -10px;
+  padding: 10px 0 0;
+  height: auto;
+  width: 600px;
+	font-weight: bold;
+	text-align: center;
+	background-color: rgba(56, 56, 56, 0.5);
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 50px;
+  border-width: 1px 1px 0;
+  border-style: solid;
+  border-color: #FDFBFF;
+  border-radius: 4px 4px 0 0;
+  z-index: -1;
+}

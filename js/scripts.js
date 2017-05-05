@@ -1,25 +1,23 @@
 //------------------------------------- BUSINESS LOGIC
 var soloInputArray = function(soloInput) {
-  var testArray = [];
+  var placeholderArray = [];
   for(var i = 1; i <= soloInput; i ++){
-    testArray.push(i);
+    placeholderArray.push(" " + i);
   }
-  var resultArray = testArray.map(function(i){
-    
+  var resultArray = placeholderArray.map(function(i){
     if(((i % 15) === 0) && (i !== 3 || i !== 5)){
-      return "ping-pong";
+      return " ping-pong";
     }
     else if((i % 5) === 0) {
-      return "pong";
+      return " pong";
     }
     else if ((i % 3) === 0){
-      return "ping";
+      return " ping";
     }
     else {
       return i;
     }
   });
-  console.log(resultArray);
   return resultArray;
 };
 
@@ -29,7 +27,7 @@ var soloInputArray = function(soloInput) {
 $(function(){
   $("#soloForm").submit(function(event){
     event.preventDefault();
-    var soloInput = parseInt($("input#soloInput").val());
-    $("ul#output").append("<li>" + soloInputArray(soloInput) + "</li>");
+    $("#output").children().remove();
+    $("ul#output").append("<li>" + soloInputArray(parseInt($("input#soloInput").val())) + "</li>");
   })
 })
