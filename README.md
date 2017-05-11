@@ -4,10 +4,9 @@ Ping - Pong based on user input. A simple javascript logic test to see if I am a
 ### SPECs
 This program will:
 1. Receive user input.
-2. Pass user input as argument to backend function parameter.
-3. Count up from 1 to user input.
-4. Check count against 15, 5, 3 -> if one returns a value that is divisible by them return ping-pong, pong, ping respectively.
-5. Return all numbers being counted that aren't turned into strings as well as the strings to the user in order.
+2. Count up from 1 to user input. For example: The user enters 6 so the program will count from 1-6.
+3. Check count against 15, 5, 3 -> if the number is divisible by them return ping-pong, pong, ping respectively.
+4. Return all numbers being counted that aren't changed as well as the changed numbers to the user in order.
 
 ### INSTALLATION
 https://github.com/GrapeSalad/5-5-soloProject is the url that will provide access to the code.
