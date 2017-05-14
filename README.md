@@ -7,6 +7,19 @@ This program will:
 2. Count up from 1 to user input. For example: The user enters 6 so the program will count from 1-6.
 3. Check count against 15, 5, 3 -> if the number is divisible by them return ping-pong, pong, ping respectively.
 4. Return all numbers being counted that aren't changed as well as the changed numbers to the user in order.
+5. Allow the user to play with a friend (functionality to be added at a later date).
+
+| BEHAVIOR | INPUT | OUTPUT |
+|---|---|---|
+| SINGLE | PLAYER | VERSION |
+|---|---|---|
+| Not a Number entered | 1r5l | text box asks user to enter appropriate number |
+| correct number entered | 15 | 1, 2, ping, 4, pong, ping, 7, 8, ping, pong, 11, ping, 13, 14, ping-pong |
+|---|---|---|
+| TWO | PLAYER | VERSION |
+|---|---|---|
+| players enter their respective inputs | 1-ping 2-pong | increase count by 3 and 5, respectively |
+| players enter anything else | poing, p0ng, perllsnm | "Please enter ping for player one or pong for player two" |
 
 ### INSTALLATION
 https://github.com/GrapeSalad/5-5-soloProject is the url that will provide access to the code.
